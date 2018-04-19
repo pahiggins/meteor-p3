@@ -1,9 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Header from './components/Header';
+import LinkCreate from './components/LinkCreate';
+import LinkList from './components/LinkList';
+import { Links } from '../imports/collections/links';
+
 const App = () => {
   return (
-    <h1>App</h1>
+    <div>
+      <Header />
+      <LinkCreate />
+      <LinkList />
+    </div>
   );
 };
 
